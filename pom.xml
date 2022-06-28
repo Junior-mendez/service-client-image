@@ -73,6 +73,11 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-validation</artifactId>
 		</dependency>
+		<dependency>
+			<groupId>org.junit.jupiter</groupId>
+			<artifactId>junit-jupiter-engine</artifactId>
+			<scope>test</scope>
+		</dependency>
 	</dependencies>
 
 	<build>
@@ -114,7 +119,7 @@
 						<!-- Response Application -->
 						<exclude>com/co/pragma/**/application/response/*</exclude>
 						<!-- Client Domain -->
-						<exclude>com/co/pragma/**/domain/client/*</exclude>
+						<exclude>com/co/pragma/**/domain/clientimage/*</exclude>
 						<!-- Mapper Domain -->
 						<exclude>com/co/pragma/**/domain/mapper/*</exclude>
 						<!-- Repository Domain -->

@@ -13,7 +13,6 @@ import com.co.pragma.serviceclienteimagen.domain.exception.ClientImageUpdateExce
 import com.co.pragma.serviceclienteimagen.domain.mapper.ClientImageMapper;
 import com.co.pragma.serviceclienteimagen.domain.repository.ClientImageRepository;
 import com.co.pragma.serviceclienteimagen.domain.service.ClientImageService;
-import com.co.pragma.serviceclienteimagen.infraestructure.mongo.entity.ClientImageEntity;
 
 @Service
 public class ClientImageServiceImpl implements ClientImageService {
